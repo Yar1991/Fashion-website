@@ -205,9 +205,7 @@ arrowBtns.forEach((btn) => {
         },
         { opacity: 1, duration: 1.5, ease: "expo" }
       );
-      gsap.set(imgBox[targetIndex].children[0], {
-        attr: { src: rotateImgs[targetIndex] },
-      });
+      imgBox[targetIndex].children[0].src = rotateImgs[targetIndex];
     } else {
       target.classList.remove("rotate");
       gsap.to(arrowBtns[targetIndex], {
@@ -222,9 +220,7 @@ arrowBtns.forEach((btn) => {
         },
         { opacity: 1, duration: 1.5, ease: "expo" }
       );
-      gsap.set(imgBox[targetIndex].children[0], {
-        attr: { src: mainImgs[targetIndex] },
-      });
+      imgBox[targetIndex].children[0].src = mainImgs[targetIndex];
     }
   });
 });

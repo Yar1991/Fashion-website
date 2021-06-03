@@ -323,6 +323,7 @@ p {
   justify-content: center;
   padding: 3rem 0rem 3rem 0rem;
   transform: translateY(-2rem);
+  overflow-x: hidden;
 }
 
 @media screen and (min-width: 760px) {
