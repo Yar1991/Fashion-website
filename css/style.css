@@ -8,7 +8,7 @@ body {
   background: #17181a;
   font-family: "Raleway", sans-serif;
   position: relative;
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -323,7 +323,7 @@ p {
   justify-content: center;
   padding: 3rem 0rem 3rem 0rem;
   transform: translateY(-2rem);
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 760px) {
